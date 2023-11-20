@@ -20,6 +20,6 @@
       this._alreadySharedCount.Add(target, 1);
     }
     if (this._alreadySharedCount[target] > 3) return;
-    target.bufListDetail.AddKeywordBufByEtc(KeywordBuf.Smoke, 1, target);
+    target.bufListDetail.AddKeywordBufThisRoundByEtc(KeywordBuf.Smoke, 1, target);
   }
 }
