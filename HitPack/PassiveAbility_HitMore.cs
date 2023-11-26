@@ -11,7 +11,7 @@ public class PassiveAbility_HitMore : PassiveAbilityBase
         power = 3
       });
     }
-    if (behavior.Detail == BehaviourDetail.Guard || behavior.Detail == BehaviourDetail.Evasion)
+    if (base.IsDefenseDice(behavior.Detail))
     {
       behavior.ApplyDiceStatBonus(new DiceStatBonus
       {
