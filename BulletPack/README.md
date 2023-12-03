@@ -8,3 +8,5 @@
     幕の終了時、ランダムな弾丸を追加
 - BulletPower
     弾丸ページの威力+1
+- BulletMorePower
+    弾丸ページの威力+8
