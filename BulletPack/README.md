@@ -10,3 +10,5 @@
     弾丸ページの威力+1
 - BulletMorePower
     弾丸ページの威力+8
+- BulletSubMag
+    舞台開始時、ランダムな弾丸4枚を手札に追加する
